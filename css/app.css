@@ -1,0 +1,61 @@
+html {
+    background: url(/assets/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    color: white;
+    padding-top: 50px;
+}
+.navbar-default {
+  background-color: rgb(73,28,50);
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+.navbar .nav{
+    float: none;
+    text-align: center;
+}
+.navbar .nav > li{
+    float: none;
+    display: inline-block;
+}
+.navbar-nav > .active > a {
+    color: rgb(240, 142, 38);
+}
+.jumbotron h1, h2, h3, p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: none;
+    font-family: "Stardos Stencil", fantasy;
+    font-weight: bold;
+    color: rgb(240, 142, 38);
+    text-shadow: #ffffff -1px -1px 0px, #ffffff -1px 1px 0px, #ffffff 1px 1px 0px, #ffffff 1px -1px 0px;
+}
+.jumbotron h1 {
+    font-size: 85px;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+}
+.jumbotron h3 {
+    font-size: 30px;
+}
+.jumbotron p {
+    font-size: 18px;
+}
+.jumbotron p.bold {
+    font-size: 24px;
+}
+.jumbotron > .container.right {
+    text-align: right;
+}
+.backdrop {
+    background-color: rgba(255,255,255,0.5);
+}
