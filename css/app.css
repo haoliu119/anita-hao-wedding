@@ -11,6 +11,18 @@ body {
     color: white;
     padding-top: 50px;
 }
+footer div {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+footer p {
+    margin-top: 0px;
+}
 .sprites {
     background-image: url(http://haoliu119.github.io/anita-hao-wedding/assets/sprite.png);
 }
@@ -25,6 +37,15 @@ body {
 }
 .left {
     float: left;
+}
+.powered-by-container {
+    padding: 8px 10px;
+    background: #fff;
+    display: inline-block;
+    overflow: hidden;
+    color: #000;
+    font-size: 9px;
+    font-weight: 400;
 }
 .navbar-default {
   background-color: rgb(73,28,50);
