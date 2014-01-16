@@ -4,14 +4,16 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
 }
-
 body {
     font-family: arial, helvetica, sans-serif;
     color: white;
     padding-top: 50px;
+    height: 100%;
 }
 footer {
+    margin-top: 10px;
     position: fixed;
     bottom:0px;
     padding-left: 30px;
@@ -36,6 +38,8 @@ footer div {
 footer p {
     margin-top: 0px;
     color: black;
+    font-family: arial, helvetica, sans-serif;
+    text-shadow: none;
 }
 .sprites {
     background-image: url(http://haoliu119.github.io/anita-hao-wedding/assets/sprite.png);
@@ -54,7 +58,7 @@ footer p {
 }
 .powered-by-container {
     padding: 8px 10px;
-    background: #fff;
+    background: rgba(255,255,255,0.5);
     display: inline-block;
     overflow: hidden;
     color: #000;
@@ -77,6 +81,10 @@ footer p {
 }
 .navbar-nav > .active > a {
     color: rgb(240, 142, 38);
+}
+.jumbotron {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .jumbotron h1, h2, h3, p {
     margin-top: 10px;
