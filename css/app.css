@@ -11,6 +11,21 @@ body {
     color: white;
     padding-top: 50px;
 }
+.sprites {
+    background-image: url(http://haoliu119.github.io/anita-hao-wedding/assets/sprite.png);
+}
+.badge-logo {
+    background-position: -455px -234px;
+    width: 12px;
+    height: 13px;
+    display: block;
+}
+.badge-logo-container {
+    padding-right: 5px;
+}
+.left {
+    float: left;
+}
 .navbar-default {
   background-color: rgb(73,28,50);
   background-image: none;
