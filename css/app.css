@@ -37,6 +37,13 @@ body {
     color: rgb(240, 142, 38);
     text-shadow: #ffffff -1px -1px 0px, #ffffff -1px 1px 0px, #ffffff 1px 1px 0px, #ffffff 1px -1px 0px;
 }
+.jumbotron > .container.right {
+    text-align: right;
+}
+.backdrop {
+    background-color: rgba(255,255,255,0.5);
+}
+
 .jumbotron h1 {
     font-size: 85px;
 }
@@ -53,13 +60,6 @@ body {
 .jumbotron p.bold {
     font-size: 24px;
 }
-.jumbotron > .container.right {
-    text-align: right;
-}
-.backdrop {
-    background-color: rgba(255,255,255,0.5);
-}
-
 /*small desktops*/
 @media only screen and (max-width:1024px) {
     html {
@@ -85,5 +85,23 @@ body {
 
 /*smartphones*/
 @media only screen and (max-width:640px) {
+    .jumbotron {
+        padding: 10px;
+    }
+    .jumbotron h1 {
+        font-size: 50px;
+    }
 
+    .jumbotron h2 {
+        font-size: 35px;
+    }
+    .jumbotron h3 {
+        font-size: 28px;
+    }
+    .jumbotron p.bold {
+        font-size: 22px;
+    }
+    .jumbotron p {
+        font-size: 18px;
+    }
 }
