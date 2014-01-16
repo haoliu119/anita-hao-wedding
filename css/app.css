@@ -85,12 +85,5 @@ body {
 
 /*smartphones*/
 @media only screen and (max-width:640px) {
-    html {
-        background: url(http://haoliu119.github.io/anita-hao-wedding/assets/bg-600x344.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
 
-    }
 }
