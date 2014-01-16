@@ -1,5 +1,5 @@
 html {
-    background: url(http://haoliu119.github.io/anita-hao-wedding/assets/bg.jpg) no-repeat center center fixed;
+    background: url(http://haoliu119.github.io/anita-hao-wedding/assets/bg-1693x973.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,4 +58,39 @@ body {
 }
 .backdrop {
     background-color: rgba(255,255,255,0.5);
+}
+
+/*small desktops*/
+@media only screen and (max-width:1024px) {
+    html {
+        background: url(http://haoliu119.github.io/anita-hao-wedding/assets/bg-1280x735.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+/*tablets*/
+@media only screen and (max-width:800px) {
+    html {
+        background: url(http://haoliu119.github.io/anita-hao-wedding/assets/bg-960x551.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
+}
+
+/*smartphones*/
+@media only screen and (max-width:640px) {
+    html {
+        background: url(http://haoliu119.github.io/anita-hao-wedding/assets/bg-600x344.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
 }
